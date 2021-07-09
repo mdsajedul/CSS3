@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container,.inner{
+            width: 150px;
+            height: 150px;
+            border: 1px solid blue;
+        }
+        .container{
+            background-color: brown;
+        }
+        .inner{
+            background-color: cadetblue;
+            transform: scale(0.75) rotate(45deg) translate(30px,100px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box container">
+        <div class="inner">
+            <p>box-1</p>
+        </div>
+    </div>
+    <div class="box container">
+        <div class="inner">
+            <p>box-2</p>
+        </div>
+    </div>
+    <div class="box container">
+        <div class="inner">
+            <p>box-3</p>
+        </div>
+    </div>
+</body>
+</html>
