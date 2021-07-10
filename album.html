@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .photo-frame{
+            width: 300px;
+            height: 200px;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+
+
+        }
+
+        .photo-details h3{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(187, 153, 124, 0.644);
+            border-radius: 10px;
+        }
+        .photo img{
+            border-radius: 10px;
+            width: 100%;
+        }
+        .photo-details{
+            
+            position:absolute;
+            width: 300px;
+            height: 200px;
+            top: 0;
+            display: none;
+            color: white;
+        }
+        .photo-details p{
+            padding: 10px;
+        }
+        .photo-frame:hover .photo{
+            transform: scale(1.2) rotate(360deg);
+            transition: transform .50s ease-in-out;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>My awesome photo album with tiger</h1>
+    <section>
+        <h3>Tiger Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+           
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger Mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, corrupti! Alias, velit odio. Eos eveniet dolor magni accusamus dolorum consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
